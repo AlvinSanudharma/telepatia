@@ -222,7 +222,11 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-bottom: 20px;
+    padding: 40px;
+  }
+  .hero .brands .brands-column img {
+    width: 100%;
+    height: 100%;
   }
   .section-card .pricing-card {
     margin-bottom: 20px;
