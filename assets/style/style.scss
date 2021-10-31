@@ -1,0 +1,244 @@
+@import "./colors/colors";
+@import "./fonts/fonts";
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.master-button {
+  border-radius: 10px;
+  padding: 14px 26px 15px 25px;
+  font-size: 18px;
+}
+
+.navbar {
+  padding-top: 30px;
+
+  .navbar-nav {
+    .nav-item {
+      a {
+        padding-left: 50px;
+        color: $navy;
+        font-weight: map-get($font-weights, regular);
+      }
+
+      a.active {
+        color: $purple;
+        font-weight: map-get($font-weights, medium);
+      }
+    }
+  }
+}
+
+.hero {
+  margin-top: 100px;
+
+  .right-column {
+    padding-left: 142px;
+
+    h1 {
+      color: $navy;
+      font-size: 46px;
+      font-weight: map-get($font-weights, semi-bold);
+    }
+
+    p {
+      color: $gray;
+      font-size: 18px;
+      font-weight: map-get($font-weights, regular);
+      margin-top: 12px;
+    }
+
+    .primary-button {
+      background-color: $purple;
+      @extend .master-button;
+      font-weight: map-get($font-weights, semi-bold);
+      margin-top: 24px;
+    }
+
+    .secondary-button {
+      background-color: $gray2;
+      @extend .master-button;
+      font-weight: map-get($font-weights, medium);
+      color: $darpur;
+      border: 0;
+      margin-left: 16px;
+      margin-top: 24px;
+    }
+  }
+
+  .brands {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+.pricing {
+  background-color: #f9f9fb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  h2 {
+    color: $navy;
+    font-size: 46px;
+    font-weight: map-get($font-weights, semi-bold);
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $gray;
+    font-size: 18px;
+    font-weight: map-get($font-weights, regular);
+    margin-bottom: 50px;
+  }
+
+  .master-card {
+    width: 300px;
+    padding: 30px;
+    border-radius: 22px;
+  }
+
+  .pricing-card {
+    @extend .master-card;
+    height: 453px;
+    background-color: $white;
+
+    h4 {
+      font-size: 18px;
+      font-weight: map-get($font-weights, medium);
+      color: $navy;
+    }
+
+    h3 {
+      font-size: 36px;
+      font-weight: map-get($font-weights, bold);
+      color: $navy;
+      margin-top: 16px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: map-get($font-weights, regular);
+      color: $gray;
+    }
+
+    .benefit {
+      .item-benefit {
+        margin-bottom: 21px;
+
+        img {
+          margin-right: 8px;
+        }
+
+        span {
+          font-size: 16px;
+          font-weight: map-get($font-weights, medium);
+          color: $navy;
+        }
+      }
+    }
+
+    a {
+      padding: 14px 8px 15px 8px;
+      border-radius: 10px;
+      background-color: $purple;
+      font-size: 18px;
+      font-weight: map-get($font-weights, semi-bold);
+      color: $white;
+      width: 100%;
+      height: 50px;
+      margin-top: 19px;
+    }
+  }
+
+  .popular-card {
+    @extend .master-card;
+    height: 573px;
+    background-color: $purple;
+
+    h4 {
+      font-size: 18px;
+      font-weight: map-get($font-weights, medium);
+      color: $white;
+    }
+
+    h3 {
+      font-size: 36px;
+      font-weight: map-get($font-weights, bold);
+      color: $white;
+      margin-top: 16px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: map-get($font-weights, regular);
+      color: $gray3;
+    }
+
+    .benefit {
+      .item-benefit {
+        margin-bottom: 21px;
+
+        img {
+          margin-right: 8px;
+        }
+
+        span {
+          font-size: 16px;
+          font-weight: map-get($font-weights, medium);
+          color: $white;
+        }
+      }
+    }
+
+    a {
+      padding: 14px 8px 15px 8px;
+      border-radius: 10px;
+      background-color: $aqua;
+      font-size: 18px;
+      font-weight: map-get($font-weights, semi-bold);
+      color: $white;
+      width: 100%;
+      height: 50px;
+      margin-top: 54px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero {
+    margin-top: 25px;
+
+    .right-column {
+      padding-left: 12px;
+
+      div {
+        display: flex;
+        flex-direction: column;
+
+        .secondary-button {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .brands {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .brands-column {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .section-card {
+    .pricing-card {
+      margin-bottom: 20px;
+    }
+  }
+}

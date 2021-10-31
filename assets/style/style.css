@@ -1,0 +1,231 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.master-button, .hero .right-column .primary-button, .hero .right-column .secondary-button {
+  border-radius: 10px;
+  padding: 14px 26px 15px 25px;
+  font-size: 18px;
+}
+
+.navbar {
+  padding-top: 30px;
+}
+
+.navbar .navbar-nav .nav-item a {
+  padding-left: 50px;
+  color: #02044a;
+  font-weight: 400;
+}
+
+.navbar .navbar-nav .nav-item a.active {
+  color: #563ad6;
+  font-weight: 500;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.hero .right-column {
+  padding-left: 142px;
+}
+
+.hero .right-column h1 {
+  color: #02044a;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.hero .right-column p {
+  color: #9b9cb7;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.hero .right-column .primary-button {
+  background-color: #563ad6;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.hero .right-column .secondary-button {
+  background-color: #eaebf4;
+  font-weight: 500;
+  color: #777790;
+  border: 0;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.hero .brands {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pricing {
+  background-color: #f9f9fb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pricing h2 {
+  color: #02044a;
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.pricing p {
+  color: #9b9cb7;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.pricing .master-card, .pricing .pricing-card, .pricing .popular-card {
+  width: 300px;
+  padding: 30px;
+  border-radius: 22px;
+}
+
+.pricing .pricing-card {
+  height: 453px;
+  background-color: #ffffff;
+}
+
+.pricing .pricing-card h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #02044a;
+}
+
+.pricing .pricing-card h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #02044a;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+
+.pricing .pricing-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9b9cb7;
+}
+
+.pricing .pricing-card .benefit .item-benefit {
+  margin-bottom: 21px;
+}
+
+.pricing .pricing-card .benefit .item-benefit img {
+  margin-right: 8px;
+}
+
+.pricing .pricing-card .benefit .item-benefit span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #02044a;
+}
+
+.pricing .pricing-card a {
+  padding: 14px 8px 15px 8px;
+  border-radius: 10px;
+  background-color: #563ad6;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  margin-top: 19px;
+}
+
+.pricing .popular-card {
+  height: 573px;
+  background-color: #563ad6;
+}
+
+.pricing .popular-card h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.pricing .popular-card h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+
+.pricing .popular-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b19fff;
+}
+
+.pricing .popular-card .benefit .item-benefit {
+  margin-bottom: 21px;
+}
+
+.pricing .popular-card .benefit .item-benefit img {
+  margin-right: 8px;
+}
+
+.pricing .popular-card .benefit .item-benefit span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.pricing .popular-card a {
+  padding: 14px 8px 15px 8px;
+  border-radius: 10px;
+  background-color: #3abad6;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  margin-top: 54px;
+}
+
+@media (max-width: 575.98px) {
+  .hero {
+    margin-top: 25px;
+  }
+  .hero .right-column {
+    padding-left: 12px;
+  }
+  .hero .right-column div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero .right-column div .secondary-button {
+    margin-left: 0;
+  }
+  .hero .brands {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hero .brands .brands-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 20px;
+  }
+  .section-card .pricing-card {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
